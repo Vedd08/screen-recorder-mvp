@@ -111,3 +111,12 @@ Production Improvements:
 - Add authentication and access control
 - Improve trimming UI with timeline sliders
 - Add more detailed watch-time analytics
+
+## What I Would Improve for Production
+- Move video storage from the local filesystem to cloud object storage (S3 or R2)
+- Run FFmpeg processing in background jobs instead of request/response
+- Add authentication and access control for private videos
+- Improve trimming UX with a timeline-based editor
+- Add more detailed analytics (watch time, drop-off points)
+- Add rate limiting and input validation on APIs
+- Improve error handling and monitoring
